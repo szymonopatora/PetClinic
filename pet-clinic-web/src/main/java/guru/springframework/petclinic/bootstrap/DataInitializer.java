@@ -4,8 +4,6 @@ import guru.springframework.petclinic.model.Owner;
 import guru.springframework.petclinic.model.Vet;
 import guru.springframework.petclinic.service.OwnerService;
 import guru.springframework.petclinic.service.VetService;
-import guru.springframework.petclinic.service.map.OwnerServiceMap;
-import guru.springframework.petclinic.service.map.VetServiceMap;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -27,15 +25,15 @@ public class DataInitializer implements CommandLineRunner {
 
         Owner owner1 = new Owner();
         owner1.setId(1L);
-        owner1.setFirstName("Szymon");
-        owner1.setLastName("Patora");
+        owner1.setFirstName("Marcjanna");
+        owner1.setLastName("Ras");
 
         ownerService.save(owner1);
 
         Owner owner2 = new Owner();
         owner2.setId(2L);
-        owner2.setFirstName("Ma");
-        owner2.setLastName("Rs");
+        owner2.setFirstName("Szymon");
+        owner2.setLastName("Patora");
 
         ownerService.save(owner2);
 
