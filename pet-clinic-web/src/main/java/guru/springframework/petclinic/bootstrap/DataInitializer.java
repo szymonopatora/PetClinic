@@ -1,10 +1,10 @@
 package guru.springframework.petclinic.bootstrap;
 
 import guru.springframework.petclinic.model.*;
-import guru.springframework.petclinic.service.OwnerService;
-import guru.springframework.petclinic.service.PetTypeService;
-import guru.springframework.petclinic.service.SpecialtyService;
-import guru.springframework.petclinic.service.VetService;
+import guru.springframework.petclinic.services.OwnerService;
+import guru.springframework.petclinic.services.PetTypeService;
+import guru.springframework.petclinic.services.SpecialtyService;
+import guru.springframework.petclinic.services.VetService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

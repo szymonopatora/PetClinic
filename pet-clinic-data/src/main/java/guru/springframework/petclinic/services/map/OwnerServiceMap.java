@@ -1,10 +1,10 @@
-package guru.springframework.petclinic.service.map;
+package guru.springframework.petclinic.services.map;
 
 import guru.springframework.petclinic.model.Owner;
 import guru.springframework.petclinic.model.Pet;
-import guru.springframework.petclinic.service.OwnerService;
-import guru.springframework.petclinic.service.PetService;
-import guru.springframework.petclinic.service.PetTypeService;
+import guru.springframework.petclinic.services.OwnerService;
+import guru.springframework.petclinic.services.PetService;
+import guru.springframework.petclinic.services.PetTypeService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;

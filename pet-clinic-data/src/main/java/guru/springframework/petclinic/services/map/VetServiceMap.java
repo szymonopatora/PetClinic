@@ -1,9 +1,9 @@
-package guru.springframework.petclinic.service.map;
+package guru.springframework.petclinic.services.map;
 
 import guru.springframework.petclinic.model.Specialty;
 import guru.springframework.petclinic.model.Vet;
-import guru.springframework.petclinic.service.SpecialtyService;
-import guru.springframework.petclinic.service.VetService;
+import guru.springframework.petclinic.services.SpecialtyService;
+import guru.springframework.petclinic.services.VetService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;

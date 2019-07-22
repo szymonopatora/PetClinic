@@ -1,4 +1,4 @@
-package guru.springframework.petclinic.service;
+package guru.springframework.petclinic.services;
 
 import guru.springframework.petclinic.model.Owner;
 
