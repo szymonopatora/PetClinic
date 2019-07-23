@@ -1,17 +1,22 @@
 package guru.springframework.petclinic.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;
 
-@Data
+@Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @MappedSuperclass
-public class Person extends BaseEntity{
+public class Person extends BaseEntity {
+
+    public Person(Long id, String firstName, String lastName) {
+        super(id);
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
 
     @Column(name = "first_name")
     private String firstName;
