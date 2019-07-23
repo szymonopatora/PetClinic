@@ -90,6 +90,13 @@ public class DataInitializer implements CommandLineRunner {
 
         ownerService.save(owner2);
 
+        Visit burzaVisit = new Visit();
+        burzaVisit.setPet(burza);
+        burzaVisit.setDate(LocalDate.now());
+        burzaVisit.setDescription("Sick cat");
+
+        visitService.save(burzaVisit);
+
         Vet vet1 = new Vet();
         vet1.setFirstName("Artur");
         vet1.setLastName("Kossowski");
