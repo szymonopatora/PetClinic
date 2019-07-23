@@ -5,6 +5,7 @@ import guru.springframework.petclinic.services.VisitService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
+
 @Service
 public class VisitMapService extends AbstractMapService<Visit, Long> implements VisitService {
 
@@ -29,7 +30,7 @@ public class VisitMapService extends AbstractMapService<Visit, Long> implements 
 
     @Override
     public void delete(Visit visit) {
-super.delete(visit);
+        super.delete(visit);
     }
 
     @Override
